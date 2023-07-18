@@ -1,0 +1,19 @@
+#imageBox {
+    display: block;
+    margin: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    background-color: #fff;
+    border-left: 1px solid #ccc;
+}
+
+main > div:first-child {
+    max-width: 50%;
+}
+
+main > div:nth-child(2) {
+    z-index: 10;
+}
